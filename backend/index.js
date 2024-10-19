@@ -7,7 +7,7 @@ const ProductRouter = require('./Routes/ProductRouter');
 
 require('dotenv').config();
 require('./Models/db');
-const PORT = process.env.PORT || 8000;
+const PORT = process.env.PORT || 8080;
 
 app.get('/ping', (req, res) => {
     res.send('pong');
